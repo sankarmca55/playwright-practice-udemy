@@ -13,6 +13,7 @@ def test_playwrightBasics(page:Page):
 
     page.get_by_role("combobox",name="Search").fill("Playwright")
     print("This is new commit")
+    print("This is just print.")
     page.keyboard.press("Enter")
     time.sleep(5)
 
