@@ -42,4 +42,5 @@ def test_childWindow(page: Page):
     email = words[1].strip().split(" ")[0]
     assert email == "mentor@rahulshettyacademy.com"
 
+
     time.sleep(5)
