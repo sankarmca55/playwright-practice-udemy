@@ -14,7 +14,6 @@ class APIutils:
         return responseBody["token"]
 
 
-
     def createOrder(self, playwright: Playwright):
         token = self.getToken(playwright)
         api_request_context = playwright.request.new_context(base_url="https://rahulshettyacademy.com/")
