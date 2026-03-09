@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "d:\\Tools\\projects\\playwright-practice-udemy\\venv\\Scripts\\python.exe"
+    "python.pythonPath": "d:\\Tools\\projects\\playwright-practice-udemy\\venv\\Scripts\\python.exe",
+    "python.analysis.autoImportCompletions": false
 }
